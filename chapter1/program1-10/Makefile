@@ -1,4 +1,4 @@
-appname := myapp
+appname := $(notdir $(CURDIR))
 
 CXX := g++
 CXXFLAGS := -Wall -g
